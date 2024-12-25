@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "echo 'No build step required'"  // Optional: For apps that don't require building
+    "build": "echo 'No build step required'" 
   },
   "dependencies": {
     "express": "^4.17.1"
