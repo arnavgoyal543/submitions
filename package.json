@@ -1,3 +1,23 @@
-"scripts": {
-  "start": "node index.js"
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app deployed on Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'No build step required'"  // Optional: For apps that don't require building
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "render"
+  ],
+  "author": "arnav",
+  "license": "MIT"
 }
